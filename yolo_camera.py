@@ -133,7 +133,7 @@ def draw_detections(frame, boxes, confidences, class_ids, indices, classes):
         for i in indices.flatten():
             x, y, w, h = boxes[i]
             
-            # Generate random color for each class
+            # Use green color for bounding boxes
             color = (0, 255, 0)
             
             # Draw bounding box
