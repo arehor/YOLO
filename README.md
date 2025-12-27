@@ -39,6 +39,7 @@ pip install -r requirements.txt
 ## Project Structure
 
 - `yolo_detector.py` - Main YOLO detector implementation
+- `test_yolo_detector.py` - Unit tests for the detector
 - `requirements.txt` - Project dependencies
 - `README.md` - Project documentation
 
